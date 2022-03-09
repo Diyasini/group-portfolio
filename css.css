@@ -352,10 +352,10 @@ body {
     display: block;
   }
   .section {
-    display: block;
+    /* display: block; */
     flex-wrap: wrap;
     gap: 0px;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .section1 button {
@@ -384,5 +384,6 @@ body {
 
   .logo {
     padding-top: 20px;
+    margin-left: 70px;
   }
 }
