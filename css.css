@@ -331,6 +331,9 @@ body {
   .navbar ul li a {
     display: none;
   }
+  .navbar {
+    display: block;
+  }
   .navbar.responsive {
     position: relative;
   }
