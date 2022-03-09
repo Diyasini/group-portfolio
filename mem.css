@@ -1,0 +1,32 @@
+.box {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #94ccd8;
+  overflow: hidden;
+}
+
+.box::before {
+  content: " ";
+  position: absolute;
+  width: 1550px;
+  height: 1800px;
+  /* border-radius: 50%; */
+  background: linear-gradient(-20deg, #d4abdb, #dfb3e8);
+
+  top: -10%;
+  left: -55%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 500px) {
+  .box::before {
+    height: 900px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+  .box::before {
+    width: 1600px;
+  }
+}
