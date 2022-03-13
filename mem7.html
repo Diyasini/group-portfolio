@@ -17,7 +17,7 @@
             background-color: #94ccd8;
             overflow: hidden;
         }
-    
+
         .box::before {
             content: " ";
             position: absolute;
@@ -25,73 +25,71 @@
             height: 1800px;
             /* border-radius: 50%; */
             background: linear-gradient(-20deg, #d4abdb, #dfb3e8);
-    
+
             top: -10%;
             left: -55%;
             transform: translateY(-50%);
         }
+
         @media screen and (max-width: 500px) {
-    .box::before{
-        height: 900px;
-    }
-   
-}
+            .box::before {
+                height: 900px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="box">
-    <div class=".header">
-        <nav class="nav">
-            <div class="navbar" id="navbar">
+        <div class=".header">
+            <nav class="nav">
+                <div class="navbar" id="navbar">
 
-            <img class="logo" src="./images/logo.png">
-                <ul>
-                    <li>
-                        <a href="./index.html" target="_blank">Home</a>
-                    </li>
-                    <li>
-                        <a href="./about.html" target="_blank">About</a>
-                    </li>
-                    <li>
-                        <a href="./member.html" class="active">Members</a>
-                    </li>
-                    <li>
-                        <a href="./activities">Activities</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    
-    <div class="section">
-        <div class="img">
-            <img src="./images/IMG_20201025_151913 (2).jpg">
+                    <img class="logo" src="./images/logo.png">
+                    <ul>
+                        <li>
+                            <a href="./index.html" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html" target="_blank">About</a>
+                        </li>
+                        <li>
+                            <a href="./member.html" class="active">Members</a>
+                        </li>
+                        <li>
+                            <a href="./activities.html">Activities</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div class="section1">
-            <h1 class="members"> Diyasini Bandyopadhyay</h1>
-            <p>About:-</p>
-            <p>Web Developer, Dancer, Painter,Academic Record Holder, Android Dev Learner</p>
-            <div>
-                <a
-                    href="https://docs.google.com/document/d/11t0J8hS63AlduUJej7cVHJmpnDzPkKlM/edit?usp=sharing&ouid=111445174639063706643&rtpof=true&sd=true" target="_blank"><button>Resume</button></a>
-            </div>
-            <div class="social">
-                <a href="" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-github"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-            </div>
-        </div>
-        </div>
-    </div>
-        
 
+        <div class="section">
+            <div class="img">
+                <img src="./images/IMG_20201025_151913 (2).jpg">
+            </div>
+            <div class="section1">
+                <h1 class="members"> Diyasini<br> Banerjee</h1>
+                <p>About:-</p>
+                <p>Web Developer, App Development (learner), Academic record Holder, Dancer, Painter</p>
+                <div>
+                    <a href="https://drive.google.com/file/d/1AkfWQs1kMMeGjU92aSUDMowqV_-AVCLy/view?usp=sharing"
+                        target="_blank"><button>Resume</button></a>
+                </div>
+                <div class="social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script>
     function myFunction() {
